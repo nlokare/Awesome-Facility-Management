@@ -25,101 +25,39 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Archibus](https://eptura.com/our-platform/archibus/)**  
-  Enterprise facility and workplace management platform covering facility operations, maintenance, space planning, asset management, and built-environment management. Archibus is now part of Eptura. :contentReference[oaicite:1]{index=1}
-
-- **[FM:Systems](https://fmsystems.com/)**  
-  Workplace and facility management platform focused on space planning, workplace experience, occupancy, facilities operations, and real-estate information.
-
-- **[OfficeSpace](https://www.officespacesoftware.com/)**  
-  Workplace management platform focused on office space planning, desk and room booking, employee experience, occupancy, and hybrid-work management.
-
-- **[Spacewell](https://spacewell.com/)**  
-  Integrated workplace and facility management platform covering space management, maintenance, energy, occupancy, workplace experience, and building operations.
-
-- **[IBM TRIRIGA](https://www.ibm.com/products/tririga)**  
-  Enterprise integrated workplace management system (IWMS) for real estate, facilities, space, lease, capital-project, environmental, and workplace management.
-
-- **[Planon](https://planonsoftware.com/)**  
-  Enterprise IWMS and facility-management platform covering real estate, workplace, maintenance, space, sustainability, and facility operations.
-
-- **[ServiceChannel](https://servicechannel.com/)**  
-  Facilities-management platform for multi-site organizations, connecting facility teams with maintenance providers, contractors, work orders, invoices, and asset information.
-
-- **[Facilio](https://facilio.com/)**  
-  Connected facilities-management platform using IoT and automation to manage maintenance, assets, energy, building operations, and facility performance.
-
-- **[Eptura](https://eptura.com/)**  
-  Workplace and asset-management platform combining facility, workplace, visitor, room, space, and asset-management capabilities.
-
-- **[UpKeep](https://www.onupkeep.com/)**  
-  Mobile-first CMMS and facility-management platform for work orders, preventive maintenance, assets, parts, inspections, and maintenance teams.
-
-- **[Maintenance Connection](https://www.maintenanceconnection.com/)**  
-  Enterprise CMMS platform for preventive maintenance, work orders, assets, inventory, inspections, and facility maintenance.
-
-- **[eMaint](https://www.emaint.com/)**  
-  CMMS platform for preventive maintenance, asset management, work orders, inventory, reporting, and facility operations.
-
-- **[Fiix](https://fiixsoftware.com/)**  
-  Cloud CMMS platform for work orders, preventive maintenance, asset management, parts inventory, maintenance analytics, and integrations.
-
-- **[Limble CMMS](https://limblecmms.com/)**  
-  Maintenance-management platform for work orders, preventive maintenance, asset tracking, inspections, parts, and maintenance analytics.
-
-- **[MaintainX](https://www.getmaintainx.com/)**  
-  Digital work-order and maintenance platform for preventive maintenance, inspections, procedures, assets, and frontline facility teams.
-
-- **[Hippo CMMS](https://www.hippocmms.com/)**  
-  Cloud-based maintenance-management system supporting work orders, preventive maintenance, assets, inventory, and facility operations.
-
-- **[Brightly](https://www.brightlysoftware.com/)**  
-  Asset-management and facility-management software portfolio supporting maintenance, asset lifecycle management, capital planning, and operational intelligence.
-
-- **[AkitaBox](https://akitabox.com/)**  
-  Facility-management and building-operations platform focused on asset information, work orders, building data, and facility maintenance.
-
-- **[MRI Software](https://www.mrisoftware.com/)**  
-  Real-estate software ecosystem with facilities, property, workplace, lease, and asset-management capabilities.
-
-- **[Yardi](https://www.yardi.com/)**  
-  Property-management platform with capabilities spanning building operations, maintenance, facilities, assets, leases, and real-estate management.
-
-- **[ServiceNow Workplace Service Delivery](https://www.servicenow.com/products/workplace-service-delivery.html)**  
-  Workplace and facilities service-management capabilities built on the ServiceNow platform for requests, space, workplace services, and facilities workflows.
-
-- **[Accruent](https://www.accruent.com/)**  
-  Enterprise asset, facilities, workplace, lease, maintenance, and real-estate management software portfolio.
-
-- **[Nuvolo](https://www.nuvolo.com/)**  
-  Cloud-based workplace, facilities, asset, maintenance, and real-estate management platform built on ServiceNow.
-
-- **[MRI Manhattan](https://www.mrisoftware.com/)**  
-  Real-estate and workplace technology ecosystem with tools supporting property and facility operations.
-
-- **[eFACiLiTY](https://www.efacility.in/)**  
-  Integrated facility-management software supporting maintenance, space, asset, help desk, visitor, housekeeping, and facility operations.
-
-- **[FSI](https://www.fsifm.com/)**  
-  Facilities-management software focused on CAFM, mobile working, maintenance, compliance, help desk, and operational management.
-
-- **[CAFM Explorer](https://www.cafmexplorer.com/)**  
-  CAFM platform for managing buildings, assets, maintenance, space, facilities information, and operational processes.
-
-- **[Planon Workplace](https://planonsoftware.com/)**  
-  Workplace-management capabilities for space utilization, occupancy, employee services, and hybrid workplace operations.
-
-- **[Dude Solutions](https://www.brightlysoftware.com/)**  
-  Former Dude Solutions portfolio now part of Brightly, covering maintenance, facilities, asset, and operations management.
-
-- **[FMX](https://www.gofmx.com/)**  
-  Facility-management platform for work orders, preventive maintenance, assets, spaces, requests, and operational workflows.
-
-- **[Asset Essentials](https://www.diligent.com/products/asset-essentials)**  
-  Asset and maintenance-management platform for preventive maintenance, work orders, inspections, inventory, and facilities.
-
-- **[Hippo CMMS](https://www.hippocmms.com/)**  
-  CMMS designed for maintenance teams managing buildings, equipment, work orders, preventive maintenance, and inventory.
+| Platform | Description | Starting Price | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Archibus](https://eptura.com/our-platform/archibus/)** | Enterprise facility and workplace management platform covering facility operations, maintenance, space planning, asset management, and built-environment management. Archibus is now part of Eptura. | ~$50 / user / month (or ~$450 / month base setup) | No free plan; free interactive product demo and sandbox tour upon request (0-day self-serve trial) |
+| **[FM:Systems](https://fmsystems.com/)** | Workplace and facility management platform focused on space planning, workplace experience, occupancy, facilities operations, and real-estate information. | ~$35 / user / month (or ~$5,000 / year base deployment) | No free plan; free customized live demo and guided product tour upon request (0-day self-serve trial) |
+| **[OfficeSpace](https://www.officespacesoftware.com/)** | Workplace management platform focused on office space planning, desk and room booking, employee experience, occupancy, and hybrid-work management. | ~$2.50 – $3.50 / seat / month (or ~$300 / month minimum) | No free plan; free interactive self-guided product tour and scheduled live demo (0-day self-serve trial) |
+| **[Spacewell](https://spacewell.com/)** | Integrated workplace and facility management platform covering space management, maintenance, energy, occupancy, workplace experience, and building operations. | ~€290 / month (~€3,500 / year base package) | No free plan; free consultative live demo and space utilization assessment upon request (0-day self-serve trial) |
+| **[IBM TRIRIGA](https://www.ibm.com/products/tririga)** | Enterprise integrated workplace management system (IWMS) for real estate, facilities, space, lease, capital-project, environmental, and workplace management. | ~$150 / user / month (or ~$10,000 / year entry SaaS instance) | No free tier; free guided product tour and IBM sales-assisted test drive environment upon request (0-day self-serve trial) |
+| **[Planon](https://planonsoftware.com/)** | Enterprise IWMS and facility-management platform covering real estate, workplace, maintenance, space, sustainability, and facility operations. | ~$60 / user / month (or ~$12,000 / year base platform tier) | No free tier; free proof-of-concept / guided demo sandbox for enterprise evaluations upon request (0-day self-serve trial) |
+| **[ServiceChannel](https://servicechannel.com/)** | Facilities-management platform for multi-site organizations, connecting facility teams with maintenance providers, contractors, work orders, invoices, and asset information. | ~$150 / location / month (with annual agreement) | No free tier; free live guided platform demonstration upon request (0-day self-serve trial) |
+| **[Facilio](https://facilio.com/)** | Connected facilities-management platform using IoT and automation to manage maintenance, assets, energy, building operations, and facility performance. | ~$833 / month (~$10,000 / year entry platform tier) | No free plan; free interactive 1-on-1 demo and IoT facility assessment upon request (0-day self-serve trial) |
+| **[Eptura](https://eptura.com/)** | Workplace and asset-management platform combining facility, workplace, visitor, room, space, and asset-management capabilities. | ~$35 / user / month (or ~$3,500 / year starting package) | No free plan; free guided multi-module product demo and solution tour upon request (0-day self-serve trial) |
+| **[UpKeep](https://www.onupkeep.com/)** | Mobile-first CMMS and facility-management platform for work orders, preventive maintenance, assets, parts, inspections, and maintenance teams. | $20 / user / month (Lite plan, billed annually) | 7-day free trial of Business Plus tier (unlimited work orders and users during trial, no credit card required) |
+| **[Maintenance Connection](https://www.maintenanceconnection.com/)** | Enterprise CMMS platform for preventive maintenance, work orders, assets, inventory, inspections, and facility maintenance. | $110 / user / month (Professional edition) | 14-day free trial upon request (single-site sandbox access with demo dataset) |
+| **[eMaint](https://www.emaint.com/)** | CMMS platform for preventive maintenance, asset management, work orders, inventory, reporting, and facility operations. | $69 / user / month (Team plan, 3-user minimum) | 30-day free trial upon demo request (standard CMMS modules for up to 3 test users) |
+| **[Fiix](https://fiixsoftware.com/)** | Cloud CMMS platform for work orders, preventive maintenance, asset management, parts inventory, maintenance analytics, and integrations. | $45 / user / month (Basic plan, billed annually) | Free forever plan for up to 3 users (limited to 25 active work orders and 25 assets); plus 14-day free trial of Professional plan |
+| **[Limble CMMS](https://limblecmms.com/)** | Maintenance-management platform for work orders, preventive maintenance, asset tracking, inspections, parts, and maintenance analytics. | $28 / user / month (Standard plan, billed annually) | Free forever plan for unlimited users (limited to 1 work request portal, basic work orders, and 20 assets); plus 30-day free trial of Pro tier |
+| **[MaintainX](https://www.getmaintainx.com/)** | Digital work-order and maintenance platform for preventive maintenance, inspections, procedures, assets, and frontline facility teams. | $21 / user / month (Essential plan, billed annually) | Free forever Basic plan with unlimited work orders and requests (limited to 2 active repeat work orders/month and basic metrics); plus 30-day free trial of Premium plan |
+| **[Hippo CMMS](https://www.hippocmms.com/)** | Cloud-based maintenance-management system supporting work orders, preventive maintenance, assets, inventory, and facility operations. | $35 / user / month (Starter / Hip Pro plan) | 14-day free trial with full access to work orders and asset management features (no credit card required) |
+| **[Brightly](https://www.brightlysoftware.com/)** | Asset-management and facility-management software portfolio supporting maintenance, asset lifecycle management, capital planning, and operational intelligence. | ~$40 / user / month (or ~$2,500 / year base facility package) | No free plan; free personalized demo and operations audit preview upon request (0-day self-serve trial) |
+| **[AkitaBox](https://akitabox.com/)** | Facility-management and building-operations platform focused on asset information, work orders, building data, and facility maintenance. | ~$0.04 / sq. ft. / year (or ~$350 / month base setup) | No free plan; free custom 3D building visual walkthrough and demo upon request (0-day self-serve trial) |
+| **[MRI Software](https://www.mrisoftware.com/)** | Real-estate software ecosystem with facilities, property, workplace, lease, and asset-management capabilities. | ~$250 / month (or ~$10,000 / year enterprise commercial tier) | No free tier; free product demonstration and portfolio analysis consultation upon request (0-day self-serve trial) |
+| **[Yardi](https://www.yardi.com/)** | Property-management platform with capabilities spanning building operations, maintenance, facilities, assets, leases, and real-estate management. | $100 / month minimum ($1 / unit / month for Breeze Residential, $2 / unit / month for Commercial) | No free tier or trial; free live 1-on-1 personalized demo |
+| **[ServiceNow Workplace Service Delivery](https://www.servicenow.com/products/workplace-service-delivery.html)** | Workplace and facilities service-management capabilities built on the ServiceNow platform for requests, space, workplace services, and facilities workflows. | ~$70 / fulfiller user / month (standard enterprise tier) | No free production tier; ServiceNow Personal Developer Instance (PDI) free for 10-15 days of inactivity timeout with development limits |
+| **[Accruent](https://www.accruent.com/)** | Enterprise asset, facilities, workplace, lease, maintenance, and real-estate management software portfolio. | ~$85 / user / month (or ~$5,000 / year entry modular suite) | No free plan; 14-day guided evaluation / demo sandbox upon request |
+| **[Nuvolo](https://www.nuvolo.com/)** | Cloud-based workplace, facilities, asset, maintenance, and real-estate management platform built on ServiceNow. | ~$35 / user / month (plus underlying ServiceNow licensing) | No free plan; free customized live demonstration and architectural assessment upon request (0-day self-serve trial) |
+| **[MRI Manhattan](https://www.mrisoftware.com/)** | Real-estate and workplace technology ecosystem with tools supporting property and facility operations. | ~$500 / month (or ~$6,000 / year base IWMS package) | No free plan; free tailored enterprise demo upon request (0-day self-serve trial) |
+| **[eFACiLiTY](https://www.efacility.in/)** | Integrated facility-management software supporting maintenance, space, asset, help desk, visitor, housekeeping, and facility operations. | ~$800 / month (entry modular EAM / CAFM licensing) | No free plan; 30-day proof-of-concept sandbox trial upon vendor qualification and demo |
+| **[FSI](https://www.fsifm.com/)** | Facilities-management software focused on CAFM, mobile working, maintenance, compliance, help desk, and operational management. | ~£150 / user / month (~$190 / user / month or £3,000 / year base) | No free plan; free consultative demo and requirement evaluation upon request (0-day self-serve trial) |
+| **[CAFM Explorer](https://www.cafmexplorer.com/)** | CAFM platform for managing buildings, assets, maintenance, space, facilities information, and operational processes. | ~$400 / month (or ~$4,800 / year single-site base setup) | No free plan; free scheduled demonstration with sample facilities dataset (0-day self-serve trial) |
+| **[Planon Workplace](https://planonsoftware.com/)** | Workplace-management capabilities for space utilization, occupancy, employee services, and hybrid workplace operations. | ~$45 / user / month (or ~$5,000 / year workplace package) | No free tier; free live interactive demo and space management walkthrough (0-day self-serve trial) |
+| **[Dude Solutions](https://www.brightlysoftware.com/)** | Former Dude Solutions portfolio now part of Brightly, covering maintenance, facilities, asset, and operations management. | ~$1,500 / year (~$125 / month base facility tier) | No free plan; free custom walkthrough demo and needs consultation (0-day self-serve trial) |
+| **[FMX](https://www.gofmx.com/)** | Facility-management platform for work orders, preventive maintenance, assets, spaces, requests, and operational workflows. | $35 / user / month (or ~$300 / month base tier) | 14-day free trial with full access to work orders, scheduling, and preventive maintenance modules |
+| **[Asset Essentials](https://www.diligent.com/products/asset-essentials)** | Asset and maintenance-management platform for preventive maintenance, work orders, inspections, inventory, and facilities. | ~$100 / user / month (or ~$3,000 / year base facility deployment) | No free plan; free personalized product demo and technical feasibility review upon request (0-day self-serve trial) |
 
 ## Open-Source GitHub Projects
 
