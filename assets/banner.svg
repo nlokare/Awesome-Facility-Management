@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="45%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Emerald Energy Gradient -->
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Building Gradient -->
+    <linearGradient id="buildingGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="buildingGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.75; transform: scale(1.04); }
+    }
+    @keyframes waveFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes blinkWindow {
+      0%, 100% { fill: #38bdf8; opacity: 0.8; }
+      50% { fill: #facc15; opacity: 0.4; }
+    }
+    @keyframes signalPulse {
+      0% { r: 3px; opacity: 0.9; }
+      100% { r: 18px; opacity: 0; }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -40; }
+    }
+
+    .bg-grid { stroke: #1e293b; stroke-width: 1; stroke-opacity: 0.4; }
+    .pulse-orb { animation: pulseGlow 6s ease-in-out infinite; transform-origin: 950px 180px; }
+    .floating-group { animation: waveFloat 5s ease-in-out infinite; }
+    .window-blink { animation: blinkWindow 3s ease-in-out infinite; }
+    .signal-wave { animation: signalPulse 2.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+    .signal-wave-del { animation: signalPulse 2.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite 1.25s; }
+    .dash-line { stroke-dasharray: 6, 6; animation: dashMove 2s linear infinite; }
+    .title-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .sub-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 500; }
+    .badge-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 600; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern -->
+  <g class="bg-grid">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Glowing background ambient spheres -->
+  <circle cx="980" cy="170" r="140" fill="#38bdf8" opacity="0.15" filter="url(#glow)" class="pulse-orb" />
+  <circle cx="1100" cy="80" r="90" fill="#818cf8" opacity="0.12" filter="url(#glow)" />
+  <circle cx="200" cy="280" r="110" fill="#34d399" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Isometric / Smart Facility Graphic Illustration -->
+  <g class="floating-group" transform="translate(120, 0)">
+    <!-- Connected Building Silhouettes on the right -->
+    <!-- Building 1 (Back Left) -->
+    <rect x="740" y="110" width="65" height="190" rx="4" fill="url(#buildingGrad1)" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.4" />
+    <!-- Building 2 (Tall Central Skyscraper) -->
+    <rect x="825" y="60" width="85" height="240" rx="5" fill="url(#buildingGrad2)" stroke="#818cf8" stroke-width="1.8" stroke-opacity="0.6" />
+    <!-- Building 3 (Smart Tower Right) -->
+    <rect x="930" y="130" width="70" height="170" rx="4" fill="url(#buildingGrad1)" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.4" />
+
+    <!-- Spire / Antenna -->
+    <line x1="867" y1="60" x2="867" y2="25" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+    <circle cx="867" cy="25" r="4" fill="#38bdf8" filter="url(#softGlow)" />
+    <!-- IoT Signal Rings radiating from antenna -->
+    <circle cx="867" cy="25" r="3" fill="none" stroke="#38bdf8" stroke-width="1.5" class="signal-wave" />
+    <circle cx="867" cy="25" r="3" fill="none" stroke="#38bdf8" stroke-width="1.5" class="signal-wave-del" />
+
+    <!-- Skyscraper Windows -->
+    <g fill="#38bdf8" opacity="0.75">
+      <rect x="840" y="80" width="10" height="7" rx="1" />
+      <rect x="862" y="80" width="10" height="7" rx="1" class="window-blink" />
+      <rect x="884" y="80" width="10" height="7" rx="1" />
+      
+      <rect x="840" y="100" width="10" height="7" rx="1" />
+      <rect x="862" y="100" width="10" height="7" rx="1" />
+      <rect x="884" y="100" width="10" height="7" rx="1" class="window-blink" />
+
+      <rect x="840" y="120" width="10" height="7" rx="1" class="window-blink" />
+      <rect x="862" y="120" width="10" height="7" rx="1" />
+      <rect x="884" y="120" width="10" height="7" rx="1" />
+
+      <rect x="840" y="140" width="10" height="7" rx="1" />
+      <rect x="862" y="140" width="10" height="7" rx="1" />
+      <rect x="884" y="140" width="10" height="7" rx="1" />
+
+      <rect x="840" y="165" width="10" height="7" rx="1" />
+      <rect x="862" y="165" width="10" height="7" rx="1" class="window-blink" />
+      <rect x="884" y="165" width="10" height="7" rx="1" />
+
+      <rect x="840" y="185" width="10" height="7" rx="1" />
+      <rect x="862" y="185" width="10" height="7" rx="1" />
+      <rect x="884" y="185" width="10" height="7" rx="1" />
+
+      <rect x="840" y="210" width="10" height="7" rx="1" class="window-blink" />
+      <rect x="862" y="210" width="10" height="7" rx="1" />
+      <rect x="884" y="210" width="10" height="7" rx="1" />
+    </g>
+
+    <!-- Side building windows -->
+    <g fill="#34d399" opacity="0.6">
+      <rect x="945" y="150" width="8" height="6" rx="1" />
+      <rect x="965" y="150" width="8" height="6" rx="1" />
+      <rect x="978" y="150" width="8" height="6" rx="1" />
+      <rect x="945" y="170" width="8" height="6" rx="1" />
+      <rect x="965" y="170" width="8" height="6" rx="1" />
+      <rect x="945" y="195" width="8" height="6" rx="1" />
+      <rect x="978" y="195" width="8" height="6" rx="1" />
+      <rect x="945" y="220" width="8" height="6" rx="1" />
+      <rect x="965" y="220" width="8" height="6" rx="1" />
+    </g>
+
+    <!-- IoT Connection Circuits -->
+    <path d="M 770 180 L 825 150 M 910 160 L 930 180 M 867 60 L 780 110" stroke="#38bdf8" stroke-width="1.5" class="dash-line" opacity="0.7" />
+    <circle cx="770" cy="180" r="4" fill="#38bdf8" filter="url(#softGlow)" />
+    <circle cx="930" cy="180" r="4" fill="#34d399" filter="url(#softGlow)" />
+    <circle cx="780" cy="110" r="3.5" fill="#818cf8" />
+  </g>
+
+  <!-- Left Content: Typography & Badges -->
+  <g transform="translate(60, 50)">
+    <!-- Top Pill Tag -->
+    <g transform="translate(0, 10)">
+      <rect width="260" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5" />
+      <circle cx="14" cy="14" r="5" fill="#34d399" filter="url(#softGlow)" />
+      <text x="28" y="18" fill="#94a3b8" class="badge-font" font-size="12" letter-spacing="0.5">CURATED FM ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="90" fill="#f8fafc" class="title-font" font-size="44" letter-spacing="-0.5">
+      Awesome <tspan fill="url(#accentGrad)">Facility Management</tspan>
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="128" fill="#94a3b8" class="sub-font" font-size="16" letter-spacing="0.2">
+      Enterprise SaaS Platforms • Open-Source CMMS • CAFM • IWMS • IoT &amp; BIM
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 160)">
+      <!-- Pill 1: Smart Buildings -->
+      <g transform="translate(0, 0)">
+        <rect width="145" height="34" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7" />
+        <text x="16" y="22" fill="#38bdf8" class="badge-font" font-size="13">🏢 Smart Buildings</text>
+      </g>
+
+      <!-- Pill 2: Maintenance / CMMS -->
+      <g transform="translate(155, 0)">
+        <rect width="140" height="34" rx="8" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.7" />
+        <text x="16" y="22" fill="#818cf8" class="badge-font" font-size="13">⚙️ CMMS &amp; EAM</text>
+      </g>
+
+      <!-- Pill 3: Space & Workplace -->
+      <g transform="translate(305, 0)">
+        <rect width="155" height="34" rx="8" fill="#0f172a" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.7" />
+        <text x="16" y="22" fill="#34d399" class="badge-font" font-size="13">📊 Space &amp; IWMS</text>
+      </g>
+
+      <!-- Pill 4: Open Source -->
+      <g transform="translate(470, 0)">
+        <rect width="145" height="34" rx="8" fill="#0f172a" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.7" />
+        <text x="16" y="22" fill="#c084fc" class="badge-font" font-size="13">⚡ Open-Source</text>
+      </g>
+    </g>
+
+    <!-- Stats / Meta Bar -->
+    <g transform="translate(0, 225)">
+      <text x="0" y="0" fill="#64748b" class="badge-font" font-size="12" letter-spacing="1">VERIFIED PRICING • STAR METRICS • ARCHITECTURE STACKS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#accentGrad)" />
+</svg>
