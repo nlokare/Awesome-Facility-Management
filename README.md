@@ -72,6 +72,9 @@ The following enterprise platforms offer end-to-end facilities management, IWMS,
 | **[FMX](https://www.gofmx.com/)** | **~$75M Valuation** ($18M+ ARR, Growth Equity Backed) | Facility management and maintenance software for work orders, preventative maintenance, equipment logging, and community space scheduling. | $35 / user / month (or ~$300 / month base tier) | 14-day free trial with full access to work orders, scheduling, and preventive maintenance modules |
 | **[AkitaBox](https://akitabox.com/)** | **~$50M Valuation** ($20M Raised, Series A/B Backed) | Visual building data management and facility condition assessment platform utilizing 2D/3D floor plans for pinpointing maintenance assets. | ~$0.04 / sq. ft. / year (or ~$350 / month base setup) | No free plan; free custom 3D building visual walkthrough and demo upon request (0-day self-serve trial) |
 
+
+> **Industry resource:** [FieldServiceScout](https://www.fieldservicescout.com/) provides independent comparisons of field-service management software for trade shops, including features and modeled true cost.
+
 ---
 
 ## ⚡ Open-Source GitHub Projects (Ranked by Stars)
